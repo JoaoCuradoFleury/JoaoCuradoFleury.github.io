@@ -3,11 +3,10 @@ h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
     color: #222831; /* Cor do texto */
     text-align: left; /* Alinha o texto ao centro */
-    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    letter-spacing: 0.3rem; /* Espaçamento entre letras */
 }
 
 /* Estiliza o rodapé da página */
-<!--
 footer {
     background-color: #F5F7F8; /* Cor de fundo do rodapé */
     color: #45474B; /* Cor do texto */
@@ -18,12 +17,7 @@ footer {
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
 }
--->
 
-footer {
-    display: block;
-    unicode-bidi: isolate;
-}
 
 body {
     font: 400 16px / 1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
