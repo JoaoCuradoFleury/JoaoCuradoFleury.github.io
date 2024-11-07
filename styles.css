@@ -4,6 +4,7 @@ h1 {
     color: #222831; /* Cor do texto */
     text-align: left; /* Alinha o texto ao centro */
     letter-spacing: 0.3rem; /* Espaçamento entre letras */
+    text-indent: 2em;
 }
 
 /* Estiliza o rodapé da página */
