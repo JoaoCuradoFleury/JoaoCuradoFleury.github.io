@@ -33,6 +33,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    margin-left: 20px;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
