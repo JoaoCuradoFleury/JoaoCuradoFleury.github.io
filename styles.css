@@ -4,7 +4,6 @@ h1 {
     color: #222831; /* Cor do texto */
     text-align: left; /* Alinha o texto ao centro */
     letter-spacing: 0.3rem; /* Espaçamento entre letras */
-    margin: 20px;
 }
 
 /* Estiliza o rodapé da página */
@@ -33,7 +32,6 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    margin: 20px;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
