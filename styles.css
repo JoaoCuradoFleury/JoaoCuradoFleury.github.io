@@ -1,9 +1,29 @@
 /* Estiliza os títulos h1 */
 h1 {
-    font-size: 2.5rem; /* Tamanho da fonte */
+    font-size: 3.5rem; /* Tamanho da fonte */
     color: #222831; /* Cor do texto */
     text-align: left; /* Alinha o texto ao centro */
     letter-spacing: 0.3rem; /* Espaçamento entre letras */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+        
+}
+
+.imagem-cabecalho {
+    width: 400px; 
+    display: inline-block; 
+    margin-top: 50px; 
+    margin-right: 50px;
+    align-items: left;
+    border-radius: 50%;
+}
+
+.header-content {
+    text-align: left;
+    margin-top: 5px;
 }
 
 /* Estiliza o rodapé da página */
@@ -13,14 +33,14 @@ footer {
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
-    position: absolute; /* Posiciona o rodapé */
+    position: relative; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
 }
 
 
 body {
-    font: 400 16px / 1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font: 400 22px / 1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #111;
     background-color: #fdfdfd;
     -webkit-text-size-adjust: 100%;
@@ -34,8 +54,16 @@ body {
     flex-direction: column;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
-    margin: 200px;
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure, a {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
     padding: 0;
+    color: inherit;
 }
+
+section {
+    margin-bottom: 50px; /* Adiciona 50px de margem inferior a cada seção */
+  }
 
