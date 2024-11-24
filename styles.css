@@ -13,7 +13,7 @@ header {
 }
 
 .imagem-cabecalho {
-    width: 400px; 
+    width: 350px; 
     display: inline-block; 
     margin-top: 50px; 
     margin-right: 50px;
@@ -24,6 +24,19 @@ header {
 .header-content {
     text-align: left;
     margin-top: 5px;
+}
+
+.project-section {
+    display: flex;
+    font-size: 18px;
+    line-height: 24px;
+    
+}
+
+.project-description {
+    align-items: right;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 /* Estiliza o rodapé da página */
